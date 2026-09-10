@@ -22,5 +22,23 @@ data.correlation() # find relation between two individual columns only for integ
 data.duplicated().Sum() # how many duplicate values in a data
 data.isnull().Sum()  #how many missing values in overall data
 
-pip install requests # 
+pip install requests
+
+import pandas as pd
+df = pd.read_csv("C:\Users\Rashmi\Downloads\Titanic-Dataset.csv")
+
+df.head(20)
+df.tail(10)
+df.info()
+df.shape()
+
+
+
+
+
+
+
+
+
+
 
