@@ -25,12 +25,16 @@ data.isnull().Sum()  #how many missing values in overall data
 pip install requests
 
 import pandas as pd
-df = pd.read_csv("C:\Users\Rashmi\Downloads\Titanic-Dataset.csv")
+df = pd.read_csv(r'"C:\Users\Rashmi\Downloads\Titanic-Dataset.csv")
 
 df.head(20)
 df.tail(10)
 df.info()
 df.shape()
+
+
+
+
 
 
 
