@@ -76,10 +76,12 @@ print(np.log(arr))
 print(np.sin(arr))
 print(np.cos(arr))
 
+
 #Advanced indexing
 arr=np.arange(20)
 print(arr)
 print(arr[[2,4,6]])
+
 
 #Fancy Indexing
 arr=np.array([
@@ -88,6 +90,7 @@ arr=np.array([
     [5,6]
 ])
 print(arr[[0,2]])
+
 
 #Broadcasting
 A=np.ones((3,3))
