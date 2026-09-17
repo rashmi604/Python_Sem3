@@ -11,6 +11,7 @@ print(np.sort(arr))
 
 #UNIQUE VALUES
 arr = np.array([1,2,2,3,3,4])
+
 print(np.unique(arr))
 
 #CONCATENATE
