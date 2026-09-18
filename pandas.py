@@ -24,18 +24,24 @@ data.isnull().Sum()  #how many missing values in overall data
 
 pip install requests
 
+
 import pandas as pd
 df = pd.read_csv(r'"C:\Users\Rashmi\Downloads\Titanic-Dataset.csv")
-
 df.head(20)
 df.tail(10)
 df.info()
 df.shape()
 
 
-
-
-
+data.corr(numeric_only = True)##work only on numeric data not on objective columns
+data.columns##provide names of all columns
+data.iloc[0]##print values of first row of your data
+data.iloc[10:21]#print values of row 10 to 20 dont include 21
+data.iloc[10:21,0:4]#print values of row 10 to 20 dont include 21 and columns from 0 to 3 excluding 4
+data['Age']## print all the values of age column(to check an individual column)
+data.loc[data["Age"]>50] #print coluumns with age > 50
+data['Pclass'],value_counts() # print counts to values
+data.loc[data["Pclass"]==2], ["Name","Age","Sex","Cabin"]# print value of these columns
 
 
 
