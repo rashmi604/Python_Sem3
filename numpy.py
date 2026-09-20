@@ -32,6 +32,7 @@ print(arr.dtype) #tells the data type of elements
 
 print(arr.)
 
+
 #Zeros
 print(np.zeros((5,6))) #make all elements of an array zero
 
