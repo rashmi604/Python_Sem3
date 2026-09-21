@@ -77,12 +77,10 @@ print(np.log(arr))
 print(np.sin(arr))
 print(np.cos(arr))
 
-
 #Advanced indexing
 arr=np.arange(20)
 print(arr)
 print(arr[[2,4,6]])
-
 
 #Fancy Indexing
 arr=np.array([
