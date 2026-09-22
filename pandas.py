@@ -43,7 +43,26 @@ data.loc[data["Age"]>50] #print coluumns with age > 50
 data['Pclass'],value_counts() # print counts to values
 data.loc[data["Pclass"]==2], ["Name","Age","Sex","Cabin"]# print value of these columns
 
+#Rename Columns
+data.rename(columns={
+    "PassengerId": "Passenger_ID",
+    "Survived": "Survival"
+}, inplace=True)
 
+data['Parch'] value counts
+
+data["Age"].mean()
+data["Age"].median()
+data["Age"].mode()
+data["Age"].std()
+
+data.groupby("Sex")["Age"].mean()
+
+data.groupby("Pclass").agg({
+    "Age": "mean",
+    "Fare": "mean",
+    "Survival": "sum"
+})
 
 
 
