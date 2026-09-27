@@ -1,4 +1,5 @@
 #pivot_table()
+
 pd.pivot_table(
     data,
     values="Survived",
