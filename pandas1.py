@@ -8,6 +8,7 @@ pd.pivot_table(
     columns="Pclass",
     aggfunc="mean"
 )
+
 ##question - what are missing values aur use kitne tarike se fill kar sakte hain.
 #Fill with a fixed value
 data1["Age"] = data1["Age"].fillna(25)
